@@ -3,6 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';
+import 'dotenv';
 
 import authRoutes from './routes/auth.js';
 import businessRoutes from './routes/business.js';
